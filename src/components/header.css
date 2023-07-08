@@ -1,0 +1,89 @@
+.app-header {
+    height: 8vh;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 10px 25px 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.search {
+    display: inline-flex;
+    background-color: #f0f2f5;
+    padding: 12px 15px;
+    border-radius: 30px;
+}
+
+.search img {
+    width: 25px;
+    height: 25px;
+}
+
+.search input {
+    background-color: inherit;
+    outline: none;
+    border: none;
+    width: 35vw;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.header-right-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.header-right-icons .avater img {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    bottom: -1px;
+    right: -10px;
+    border: 4px #ffffff solid;
+    border-radius: 50%;
+    background-color: #e4e6eb;
+
+}
+
+
+.header-right-icons .avater {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('../assets/profile.jpg');
+    background-size: cover;
+}
+
+.notification,
+.messanger {
+    width: 50px;
+    height: 50px;
+    background-color: #e4e6eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.messanger img {
+    width: 21px;
+    height: 23px;
+}
+
+.notification img {
+    width: 27px;
+    height: 27px;
+}
+
+.logo img {
+    width: 200px;
+    height: 50px;
+}
